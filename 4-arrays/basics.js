@@ -5,3 +5,9 @@
 // 3 - Console log the value of arr1 at index 2.
 
 //4 - Console log the length of both arrays.
+
+arr = [];
+arr1 = [2, 3, 8, 10];
+console.log(arr1[2]);
+console.log(arr.length);
+console.log(arr1.length);

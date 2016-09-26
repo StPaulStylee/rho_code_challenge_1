@@ -7,3 +7,9 @@
 // 4 - Console log the word Spain by using the substring method
 
 // 5 - Append the value ". The end." to the phrase variable.
+
+phrase = '';
+phrase += 'The rain in Spain falls gently on the plain';
+console.log(phrase.length);
+console.log(phrase.substring(12, 17));
+phrase +='. The end.';

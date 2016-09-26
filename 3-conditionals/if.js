@@ -12,3 +12,21 @@ var second = 5;
     to a new variable called third IF first is greater than second. If second is greater than
     first assign the difference of the first & second variables to third.
 */
+
+function greeting () {
+  if (first === second) {
+    console.log('Hello');
+  } else {
+    console.log('Goodbye');
+  }
+}
+
+ function confusedInstructions() {
+   if (first > second) {
+     var third = first + second;
+   }
+   else {
+     var third = first - second;
+   }
+   return third;
+ }
