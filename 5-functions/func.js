@@ -14,19 +14,21 @@
     the arguments 10, 20. Console log the result.
 */
 //1
- var myFunction = function() {
+ function myfunction() {
   return 4;
-};
+}
 //2
-var itTakes2 = function (a, b) {
+function itTakes2 (a, b) {
   return a * b;
-};
+}
 //3
-//Ahhh... I don't get it. Is this possible?
+var itTakes1 = function (a) {
+  console.log(a);
+};
 
 //4
-var itDivides2 = function(a) {
+function itDivides2(a) {
   return a / 2;
-};
+}
 //5
 console.log(itDivides2(itTakes2(10, 20)));
